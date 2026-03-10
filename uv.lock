@@ -653,7 +653,9 @@ dependencies = [
     { name = "numpy" },
     { name = "openml" },
     { name = "pandas" },
+    { name = "preamble" },
     { name = "scikit-learn" },
+    { name = "scipy" },
     { name = "seaborn" },
 ]
 
@@ -664,7 +666,9 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.4.3" },
     { name = "openml", specifier = ">=0.15.1" },
     { name = "pandas", specifier = ">=3.0.1" },
+    { name = "preamble", specifier = ">=0.0.4" },
     { name = "scikit-learn", specifier = ">=1.8.0" },
+    { name = "scipy", specifier = ">=1.17.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
 ]
 
@@ -919,6 +923,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/19/56/8d4c30c8a1d07013911a8fdbd8f89440ef9f08d07a1b50ab8ca8be5a20f9/platformdirs-4.9.4.tar.gz", hash = "sha256:1ec356301b7dc906d83f371c8f487070e99d3ccf9e501686456394622a01a934", size = 28737, upload-time = "2026-03-05T18:34:13.271Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/63/d7/97f7e3a6abb67d8080dd406fd4df842c2be0efaf712d1c899c32a075027c/platformdirs-4.9.4-py3-none-any.whl", hash = "sha256:68a9a4619a666ea6439f2ff250c12a853cd1cbd5158d258bd824a7df6be2f868", size = 21216, upload-time = "2026-03-05T18:34:12.172Z" },
+]
+
+[[package]]
+name = "preamble"
+version = "0.0.4"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/9d/03/5dab320924639f19d276d65f4fc428aedcf922dc390ff18bfa136bda7f25/preamble-0.0.4.tar.gz", hash = "sha256:f20b95704bad7c6586d24daae2eb719c734610634482ad46a403e0b000dcb72c", size = 5915, upload-time = "2023-08-08T09:42:55.421Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/88/49/2ef4f13eb117c28ca2f8079f7c368b6b786bad326d6ec98df58b42b4759d/preamble-0.0.4-py3-none-any.whl", hash = "sha256:4b6aa620067fc11bcb2abd14a359f9c73889e949c85a94d346917f425143b8dc", size = 4971, upload-time = "2023-08-08T09:42:53.768Z" },
 ]
 
 [[package]]
